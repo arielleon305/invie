@@ -1,0 +1,55 @@
+/*body {
+  background: peru;
+  font-family: Montserrat;
+}*/
+
+/* tipos de selectores:
+
+selector universal...aplica estilo a todos los elementos*/
+* {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+
+
+/*selector de etiqueta*/
+header {
+  background: blue;
+}
+
+section {
+  background: purple;
+}
+
+/*selector descendente: se aplica estilo a la etiqueta
+del tag dentro de otro tag */
+
+article h3 {
+  color: green;
+}
+
+
+/*selectores de clase: se utiliza un punto*/
+.title-a {
+  background: yellow;
+}
+
+.title-b {
+  background: salmon;
+}
+
+/*Selectores de "id" , se llaman con #. Los id son unicos
+e irrepetibles dentro de un html. */
+
+#header {
+  border: 3px solid black;
+}
+
+#portada {
+  border: 3px solid orange;
+}
+
+#guitarras {
+  border: 3px solid brown;
+}
